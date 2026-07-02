@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CSCI 1300 Final Project
 
 ## Theme
@@ -24,3 +25,6 @@
 
 (TBA) //write none if opting out
 
+=======
+# csci1300_finalproject
+>>>>>>> 1d1315ae70dbd0b998263af319f642022a1ce057
