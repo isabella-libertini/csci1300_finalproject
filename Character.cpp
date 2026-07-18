@@ -14,7 +14,7 @@ Character::Character(string n, string loc) {
     friendship = 0;
 };
 
-string Character::getName() {
+string Character::getName() const {
     return name;
 }
 
@@ -35,4 +35,3 @@ void Character::talk() {
     
     cout << name << " says: Hello there!" << endl;
 };
-//come back and put quotes around dialogue later

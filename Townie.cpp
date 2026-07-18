@@ -13,8 +13,8 @@ Townie::Townie(string n, string loc, string gift) : Character(n, loc) {
 string Townie::getFavoriteGift() {
     return favoriteGift;
 };
-
+//sh townies have their own greeting
 void Townie::talk() {
-    cout << name << " says: We still need a few more things for the Founder's Day parade." << endl;
+    cout << getName() << " says: We still need a few more things for Founder's Day. By the way, I love " << favoriteGift << "." << endl;
 };
-//come back and fix name issue
+

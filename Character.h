@@ -13,7 +13,7 @@ class Character {
     public: 
     Character();
     Character(string n, string loc);
-    string getName();
+    string getName() const;
     string getLocation();
     int getFriendship();
     void increaseFriendship(int amount);
